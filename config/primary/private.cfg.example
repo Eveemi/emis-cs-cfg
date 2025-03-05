@@ -1,0 +1,19 @@
+echoln "[private.cfg] Start of private.cfg";
+
+
+
+echoln "[private.cfg] {1} Setting private server connection alias";
+alias "fin_prac" "hideconsole; rcon_password DkV%teKUVY$sN5NgBihttl1z4MX$wm; password @BCU&Ip08!3@pglol2iUu54WTLpxR0mpn; connect example.com; clear";
+
+
+echoln "[private.cfg] {2} Setting passwords";
+password "SWlZ$6sUDOglk0Ao^am2J2nCUyulZHvaWXa%$";               // Current server access password (changed for every CFG release)
+rcon_password "wNajHG9$jO062lWREBKD&qubqM#4YPjkO";              // remote console password. (changed for every CFG release)
+sv_password "SWlZ$6sUDOglk0Ao^am2J2nCUyulZHvaWXa%$";            // Server password for entry into multiplayer games
+tv_password "sNYjhmxntkb#Ueko&qy8kk@4tMfa%*";                   // SourceTV password for all clients of CSTV[0]
+tv_password1 "g8NXo9#5LH%6bGeq2zVQ^nB0u0o2wpPGl";               // SourceTV password for all clients of CSTV[1]. If empty, tv_password is used
+tv_relaypassword "Cre9ysUV&Z421w%$%4Gnmj8BjDHBZ";               // GOTV password for relay proxies
+
+
+
+echoln "[private.cfg] End of private.cfg";
